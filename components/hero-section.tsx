@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link"
+import { useRef, useEffect } from "react";
 
 interface HeroSectionProps {
   title: string
@@ -15,12 +18,21 @@ export default function HeroSection({
   buttonLink,
   videoBackground = true,
 }: HeroSectionProps) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.6;
+    }
+  }, []);
+
   return (
     <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center">
       {/* Video/GIF Background */}
       {videoBackground ? (
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <video
+            ref={videoRef}
             autoPlay
             muted
             loop
