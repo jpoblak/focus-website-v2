@@ -20,8 +20,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-neutral-300 mb-4">
-              Your home improvement & repair specialist. We specialize in interior remodels including kitchens,
-              bathrooms, and more.
+              Your expert partner for commercial and residential remodeling. We specialize in transforming spaces like kitchens, bathrooms, offices, and more.
             </p>
             <div className="flex space-x-4">
               <a

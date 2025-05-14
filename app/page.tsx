@@ -31,17 +31,16 @@ export default function Home() {
               </div>
               <h2 className="text-3xl font-bold mb-4">About Focus Construction</h2>
               <p className="mb-4">
-                Focus Construction is your trusted partner for all home improvement and repair needs. With years of
+                Focus Construction is your trusted partner for both commercial and residential remodeling projects. With years of
                 experience in the industry, we've built a reputation for quality craftsmanship, attention to detail, and
                 exceptional customer service.
               </p>
               <p className="mb-4">
-                We specialize in transforming interior spaces, particularly kitchens and bathrooms, into beautiful,
-                functional areas that enhance your home's value and your quality of life.
+                We specialize in transforming interior spaces – from stylish kitchens and bathrooms in homes to functional and inviting commercial properties like offices and retail locations. Our goal is to create beautiful, practical areas that enhance value and everyday experience.
               </p>
               <p>
                 Our team of skilled professionals is dedicated to bringing your vision to life, on time and within
-                budget. We handle projects of all sizes, from minor repairs to complete room renovations.
+                budget. We handle projects of all sizes, from targeted upgrades to complete renovations for both homes and businesses.
               </p>
               <Link
                 href="/about"
