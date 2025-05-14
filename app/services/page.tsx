@@ -14,7 +14,7 @@ export default function ServicesPage() {
         <div className="container-custom relative z-10 text-white text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-lg max-w-3xl mx-auto">
-            Comprehensive home improvement and repair services tailored to your needs
+            Expert commercial and residential remodeling services, tailored to bring your vision to life.
           </p>
         </div>
       </section>
@@ -24,9 +24,7 @@ export default function ServicesPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-center mb-12">
-              At Focus Construction, we offer a wide range of home improvement and repair services. Our team of skilled
-              professionals is dedicated to delivering high-quality workmanship and exceptional customer service for
-              projects of all sizes.
+              At Focus Construction, we offer a comprehensive suite of remodeling services for both commercial and residential properties. Our skilled team is dedicated to delivering high-quality workmanship and exceptional customer service, ensuring your project, regardless of size, exceeds expectations.
             </p>
           </div>
 
