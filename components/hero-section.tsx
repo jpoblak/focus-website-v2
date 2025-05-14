@@ -16,7 +16,7 @@ export default function HeroSection({
   videoBackground = true,
 }: HeroSectionProps) {
   return (
-    <section className="relative min-h-[50vh] flex items-center pt-24">
+    <section className="relative min-h-[40vh] md:min-h-[50vh] flex items-center">
       {/* Video/GIF Background */}
       {videoBackground ? (
         <div className="absolute inset-0 w-full h-full overflow-hidden">
