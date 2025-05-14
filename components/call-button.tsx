@@ -35,10 +35,11 @@ export default function CallButton() {
         onClick={() => setIsExpanded(!isExpanded)}
         className={`${
           isExpanded ? "bg-neutral-700" : "bg-gradient-to-r from-primary-500 to-secondary-500"
-        } w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300`}
-        aria-label="Call us"
+        } p-4 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 text-white font-medium`}
+        aria-label={isExpanded ? "Close call information" : "Open call information and dial"}
       >
-        <Phone className="text-white" size={24} />
+        <Phone className="mr-2" size={20} />
+        <span>Call Us</span>
       </button>
     </div>
   )

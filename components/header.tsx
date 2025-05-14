@@ -57,9 +57,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 ${
-                  scrolled ? "text-neutral-800 hover:bg-neutral-100/80" : "text-white hover:bg-white/20 shadow-text"
-                }`}
+                className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 text-neutral-800 hover:bg-neutral-100/80 ${scrolled ? "" : "hover:bg-black/10"}`}
               >
                 {item.label}
               </Link>
@@ -74,9 +72,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden z-10 p-1 rounded-full ${
-              scrolled ? "text-neutral-800" : "text-white shadow-text"
-            } ${isMenuOpen ? "bg-white/10" : ""}`}
+            className={`md:hidden z-10 p-1 rounded-full text-neutral-800 ${isMenuOpen ? (scrolled ? "bg-neutral-200/80" : "bg-black/10") : ""}`}
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
