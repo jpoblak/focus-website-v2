@@ -73,11 +73,6 @@ export default function Footer() {
                   Request a Quote
                 </Link>
               </li>
-              <li>
-                <Link href="/image-guide" className="text-neutral-300 hover:text-primary-400 transition-colors">
-                  Image Guide
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -86,7 +81,9 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone size={20} className="mr-2 mt-1 text-primary-400" />
-                <span>(555) 123-4567</span>
+                <a href="tel:2482282222" className="hover:text-primary-400 transition-colors">
+                  (248) 228-2222
+                </a>
               </li>
               <li className="flex items-start">
                 <Mail size={20} className="mr-2 mt-1 text-primary-400" />

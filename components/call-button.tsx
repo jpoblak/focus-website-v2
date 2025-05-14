@@ -5,7 +5,7 @@ import { Phone, X } from "lucide-react"
 
 export default function CallButton() {
   const [isExpanded, setIsExpanded] = useState(false)
-  const phoneNumber = "(555) 123-4567" // Replace with your actual phone number
+  const phoneNumber = "(248) 228-2222" // Updated phone number
 
   return (
     <div className="fixed bottom-6 right-6 z-40">

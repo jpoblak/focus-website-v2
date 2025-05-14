@@ -42,7 +42,9 @@ export default function QuotePage() {
                     </svg>
                     <div>
                       <h3 className="font-semibold">Phone</h3>
-                      <p>(555) 123-4567</p>
+                      <a href="tel:2482282222" className="hover:underline">
+                        (248) 228-2222
+                      </a>
                     </div>
                   </div>
                   <div className="flex items-start">
