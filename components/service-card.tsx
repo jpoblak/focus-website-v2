@@ -29,12 +29,12 @@ export default function ServiceCard({ title, description, imageSrc, link }: Serv
         </p>
         <Link
           href={link}
-          className="inline-flex items-center text-primary-400 font-semibold hover:text-primary-300 transition-colors"
+          className="inline-flex items-center px-4 py-2 rounded-md bg-neutral-800/60 text-white font-semibold hover:bg-neutral-700/75 backdrop-blur-md transition-all duration-300 shadow-md hover:shadow-lg text-sm"
         >
           Learn More
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 ml-1 transition-transform duration-300 group-hover:translate-x-1"
+            className="h-4 w-4 ml-2 transition-transform duration-300 group-hover:translate-x-0.5"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
