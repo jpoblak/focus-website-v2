@@ -10,12 +10,12 @@ import CallButton from "@/components/call-button"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Focus Construction - Home Improvement & Repair Specialist",
+  title: "Commercial & Residential Remodeling | Focus Construction",
   description:
-    "A general construction and repair business that specializes in interior remodels including kitchens, bathrooms, and more.",
+    "Focus Construction offers expert commercial & residential remodeling. Specializing in kitchens, bathrooms, commercial spaces, and more.",
   generator: 'v0.dev',
   icons: {
-    icon: "/images/logo-icon.png",
+    icon: "/images/Favicon.png",
   },
 }
 

@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       <HeroSection
-        title="YOUR HOME IMPROVEMENT & REPAIR SPECIALIST"
-        subtitle="A general construction and repair business that specializes in interior remodels for kitchens, bathrooms, commercial spaces, and more."
+        title="COMMERCIAL & RESIDENTIAL REMODELING EXPERTS"
+        subtitle="Focus Construction specializes in transforming commercial and residential spaces. From kitchens and bathrooms to complete office renovations, we bring your vision to life."
         buttonText="Request a Quote"
         buttonLink="/quote"
         videoBackground={true}
