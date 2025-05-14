@@ -28,7 +28,7 @@ export default function HeroSection({
             className="absolute inset-0 w-full h-full object-cover"
             poster="/images/hero-bg.jpg"
           >
-            <source src="/videos/remodeling-video.mp4" type="video/mp4" />
+            <source src="https://2gqmufsrrfwdui82.public.blob.vercel-storage.com/Multiple%20room%20sweep-1djuu4G2xMNwAHepLFNB5FPlQwYOtM.mp4" type="video/mp4" />
             {/* Fallback image if video doesn't load */}
             <img
               src="/images/hero-bg.jpg"
