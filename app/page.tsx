@@ -82,8 +82,7 @@ export default function Home() {
             </div>
             <h2 className="text-3xl font-bold mb-4">What We Offer</h2>
             <p className="max-w-2xl mx-auto text-neutral-700">
-              We offer a wide range of home improvement and repair services, specializing in interior remodels that
-              transform your living spaces.
+              We offer a comprehensive range of commercial and residential remodeling services, specializing in transforming interior spaces to meet your unique needs.
             </p>
           </div>
 
