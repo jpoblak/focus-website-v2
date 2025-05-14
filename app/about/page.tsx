@@ -208,94 +208,93 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-4 md:left-1/2 h-full w-0.5 bg-primary-500 transform -translate-x-1/2"></div>
+              <div className="absolute left-4 md:left-1/2 h-full w-0.5 bg-primary-500 transform md:-translate-x-1/2"></div>
 
               {/* Step 1 */}
-              <div className="relative mb-12">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:text-right md:pr-8 mb-4 md:mb-0">
+              <div className="relative mb-12 md:pl-0">
+                <div className="flex md:flex-row items-start md:items-center">
+                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full mr-4 md:mr-0 md:order-2 shrink-0">
+                    <span className="text-white font-bold">1</span>
+                  </div>
+                  <div className="flex-1 md:text-right md:pr-8 md:order-1">
                     <h3 className="text-xl font-bold mb-2">Initial Consultation</h3>
                     <p className="text-neutral-700">
                       We meet with you to discuss your project goals, budget, and timeline. This helps us understand
                       your vision and requirements.
                     </p>
                   </div>
-                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full">
-                    <span className="text-white font-bold">1</span>
-                  </div>
-                  <div className="flex-1 md:pl-8 hidden md:block"></div>
+                  <div className="flex-1 md:pl-8 hidden md:block md:order-3"></div>
                 </div>
               </div>
 
               {/* Step 2 */}
-              <div className="relative mb-12">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:pr-8 order-2 md:order-1">
-                    <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl mb-4 md:mb-0">
-                      <Image src="/images/general/blueprint-964630_1280.jpg" alt="Design and Planning Blueprint" fill className="object-cover" />
-                    </div>
-                  </div>
-                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full order-1 md:order-2">
+              <div className="relative mb-12 md:pr-0">
+                <div className="flex md:flex-row items-start md:items-center">
+                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full mr-4 md:mr-0 md:order-2 shrink-0">
                     <span className="text-white font-bold">2</span>
                   </div>
-                  <div className="flex-1 md:pl-8 order-3 md:order-3">
+                  <div className="flex-1 md:pl-8 md:order-3">
                     <h3 className="text-xl font-bold mb-2">Design & Planning</h3>
-                    <p className="text-neutral-700">
+                    <p className="text-neutral-700 mb-4">
                       We develop a detailed plan for your project, including designs, material selections, and a
                       comprehensive estimate.
                     </p>
+                    <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl md:order-1">
+                      <Image src="/images/general/blueprint-964630_1280.jpg" alt="Design and Planning Blueprint" fill className="object-cover" />
+                    </div>
                   </div>
+                  <div className="flex-1 md:pr-8 hidden md:block md:order-1"></div>
                 </div>
               </div>
 
               {/* Step 3 */}
-              <div className="relative mb-12">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:text-right md:pr-8 mb-4 md:mb-0">
+              <div className="relative mb-12 md:pl-0">
+                <div className="flex md:flex-row items-start md:items-center">
+                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full mr-4 md:mr-0 md:order-2 shrink-0">
+                    <span className="text-white font-bold">3</span>
+                  </div>
+                  <div className="flex-1 md:text-right md:pr-8 md:order-1">
                     <h3 className="text-xl font-bold mb-2">Proposal & Contract</h3>
                     <p className="text-neutral-700">
                       We provide a detailed proposal outlining scope, materials, timeline, and costs. Once approved, we
                       finalize the contract.
                     </p>
                   </div>
-                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full">
-                    <span className="text-white font-bold">3</span>
-                  </div>
-                  <div className="flex-1 md:pl-8 hidden md:block"></div>
+                  <div className="flex-1 md:pl-8 hidden md:block md:order-3"></div>
                 </div>
               </div>
 
               {/* Step 4 */}
-              <div className="relative mb-12">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:text-right md:pr-8 hidden md:block"></div>
-                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full">
+              <div className="relative mb-12 md:pr-0">
+                <div className="flex md:flex-row items-start md:items-center">
+                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full mr-4 md:mr-0 md:order-2 shrink-0">
                     <span className="text-white font-bold">4</span>
                   </div>
-                  <div className="flex-1 md:pl-8 mb-4 md:mb-0">
+                  <div className="flex-1 md:pl-8 md:order-3">
                     <h3 className="text-xl font-bold mb-2">Project Execution</h3>
                     <p className="text-neutral-700">
                       Our skilled team executes the project according to plan, with regular updates and open
                       communication throughout.
                     </p>
                   </div>
+                  <div className="flex-1 md:pr-8 hidden md:block md:order-1"></div>
                 </div>
               </div>
 
               {/* Step 5 */}
-              <div className="relative">
-                <div className="flex flex-col md:flex-row items-center">
-                  <div className="flex-1 md:text-right md:pr-8 mb-4 md:mb-0">
+              <div className="relative md:pl-0">
+                <div className="flex md:flex-row items-start md:items-center">
+                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full mr-4 md:mr-0 md:order-2 shrink-0">
+                    <span className="text-white font-bold">5</span>
+                  </div>
+                  <div className="flex-1 md:text-right md:pr-8 md:order-1">
                     <h3 className="text-xl font-bold mb-2">Final Walkthrough & Follow-up</h3>
                     <p className="text-neutral-700">
                       We conduct a final inspection with you to ensure everything meets your expectations, followed by
                       ongoing support.
                     </p>
                   </div>
-                  <div className="z-10 flex items-center justify-center w-8 h-8 bg-primary-500 rounded-full">
-                    <span className="text-white font-bold">5</span>
-                  </div>
-                  <div className="flex-1 md:pl-8 hidden md:block"></div>
+                  <div className="flex-1 md:pl-8 hidden md:block md:order-3"></div>
                 </div>
               </div>
             </div>

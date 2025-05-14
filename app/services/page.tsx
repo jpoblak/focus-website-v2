@@ -48,13 +48,13 @@ export default function ServicesPage() {
                 <li>Plumbing and electrical work</li>
                 <li>Island additions and modifications</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#kitchen-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
@@ -86,13 +86,13 @@ export default function ServicesPage() {
                 <li>Accessibility modifications</li>
                 <li>Storage solutions</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#bathroom-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
@@ -118,13 +118,13 @@ export default function ServicesPage() {
                 <li>Laundry room organization</li>
                 <li>Garage storage systems</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#closet-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
@@ -156,13 +156,13 @@ export default function ServicesPage() {
                 <li>Game rooms and recreational spaces</li>
                 <li>Storage solutions and organization</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#basement-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
@@ -188,13 +188,13 @@ export default function ServicesPage() {
                 <li>ADA compliance upgrades</li>
                 <li>Commercial kitchen installations</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#commercial-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
@@ -225,13 +225,13 @@ export default function ServicesPage() {
                 <li>Tile installation</li>
                 <li>General home repairs and maintenance</li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/quote" className="btn-primary">
+              <div className="flex flex-col items-center sm:flex-row sm:justify-start gap-4">
+                <Link href="/quote" className="btn-primary text-center w-full max-w-xs sm:w-auto">
                   Get a Quote
                 </Link>
                 <Link
                   href="/portfolio#other-projects"
-                  className="btn-primary"
+                  className="btn-primary text-center w-full max-w-xs sm:w-auto"
                 >
                   View Portfolio
                 </Link>
