@@ -54,7 +54,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#kitchen-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -92,7 +92,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#bathroom-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -124,7 +124,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#closet-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -162,7 +162,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#basement-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -194,7 +194,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#commercial-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -231,7 +231,7 @@ export default function ServicesPage() {
                 </Link>
                 <Link
                   href="/portfolio#other-projects"
-                  className="bg-white border-2 border-secondary-600 text-secondary-600 hover:bg-secondary-50 font-bold py-3 px-6 rounded-md transition-colors duration-300"
+                  className="btn-primary"
                 >
                   View Portfolio
                 </Link>
@@ -245,7 +245,7 @@ export default function ServicesPage() {
       <CTASection
         title="Ready to Transform Your Home?"
         description="Contact us today to discuss your project and get a free, no-obligation quote."
-        buttonText="Request a Free Quote"
+        buttonText="Request a Quote"
         buttonLink="/quote"
       />
     </>

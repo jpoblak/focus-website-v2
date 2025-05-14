@@ -33,11 +33,14 @@ export default function CTASection({
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 glow-text">{title}</h2>
         <p className="text-white/90 max-w-2xl mx-auto mb-8">{description}</p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link href={buttonLink} className="btn-futuristic text-lg px-8 py-4">
+          <Link
+            href={buttonLink}
+            className="bg-white/20 backdrop-blur-sm text-white font-bold px-8 py-4 rounded-full text-lg transition-all duration-300 hover:bg-white/30 hover:shadow-lg transform hover:-translate-y-0.5 border border-white/30"
+          >
             {buttonText}
           </Link>
 
-          {showReviewButton && (
+          {/* {showReviewButton && ( // Keep the prop for now, but comment out the button rendering
             <a
               href="https://g.page/r/CYnLPbfGqJVsEBM/review"
               target="_blank"
@@ -46,7 +49,7 @@ export default function CTASection({
             >
               Leave a Review
             </a>
-          )}
+          )} */}
         </div>
       </div>
     </section>

@@ -307,7 +307,7 @@ export default function AboutPage() {
       <CTASection
         title="Ready to Work With Us?"
         description="Contact us today to schedule a consultation and start your home improvement journey."
-        buttonText="Request a Free Quote"
+        buttonText="Request a Quote"
         buttonLink="/quote"
       />
     </>

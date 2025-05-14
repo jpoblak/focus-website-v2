@@ -294,7 +294,7 @@ export default function PortfolioPage() {
       <CTASection
         title="Ready to Start Your Project?"
         description="Contact us today to schedule a consultation and bring your vision to life."
-        buttonText="Request a Free Quote"
+        buttonText="Request a Quote"
         buttonLink="/quote"
       />
     </>

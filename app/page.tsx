@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <HeroSection
         title="YOUR HOME IMPROVEMENT & REPAIR SPECIALIST"
-        subtitle="A general construction and repair business that specializes in interior remodels for kitchens, bathrooms, and more."
-        buttonText="Request a Free Quote"
+        subtitle="A general construction and repair business that specializes in interior remodels for kitchens, bathrooms, commercial spaces, and more."
+        buttonText="Request a Quote"
         buttonLink="/quote"
         videoBackground={true}
       />
@@ -63,8 +63,8 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative">
-              <div className="relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl">
-                <Image src="/images/about-image.jpg" alt="Focus Construction Team" fill className="object-cover" />
+              <div className="relative h-80 md:h-96 rounded-xl overflow-hidden shadow-xl flex items-center justify-center bg-neutral-100">
+                <Image src="/images/logo.png" alt="Focus Construction Logo" width={350} height={350} className="object-contain" />
               </div>
               {/* Decorative elements */}
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary-500/10 rounded-xl -z-10"></div>
@@ -92,37 +92,37 @@ export default function Home() {
             <ServiceCard
               title="Kitchens"
               description="Upgrade your kitchen with custom cabinetry, premium countertops, and a layout that blends beauty with function."
-              imageSrc="/images/kitchen.jpg"
+              imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
               link="/services#kitchens"
             />
             <ServiceCard
               title="Bathrooms"
               description="Transform your bathroom into a spa-like retreat with sleek vanities, modern fixtures, and luxurious tile work."
-              imageSrc="/images/bathroom.jpg"
+              imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
               link="/services#bathrooms"
             />
             <ServiceCard
               title="Closets"
               description="Maximize your storage space with custom closet solutions designed to fit your specific needs and style."
-              imageSrc="/images/closets.jpg"
+              imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
               link="/services#closets"
             />
             <ServiceCard
               title="Basements"
               description="Convert your unfinished basement into a functional living space, from entertainment rooms to home offices."
-              imageSrc="/images/basements.jpg"
+              imageSrc="/images/basements/Basement darker vaulted ceilings.png"
               link="/services#basements"
             />
             <ServiceCard
               title="Commercial"
               description="Professional renovation services for retail spaces, offices, restaurants, and other commercial properties."
-              imageSrc="/images/commercial.jpg"
+              imageSrc="/images/commerical building metal stud.jpg"
               link="/services#commercial"
             />
             <ServiceCard
               title="And More"
               description="From flooring and painting to general repairs and custom carpentry, we handle all your home improvement needs."
-              imageSrc="/images/more-services.jpg"
+              imageSrc="/images/BH Deck Mid Construction.jpg"
               link="/services#more"
             />
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
       <CTASection
         title="Ready to Start Your Project?"
         description="Contact us today to schedule a consultation and get a free quote for your home improvement or repair project."
-        buttonText="Request a Free Quote"
+        buttonText="Request a Quote"
         buttonLink="/quote"
         showReviewButton={true}
       />
