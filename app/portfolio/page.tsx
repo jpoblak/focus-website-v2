@@ -28,12 +28,12 @@ export default function PortfolioPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <CategoryCard title="Kitchens" imageSrc="/images/kitchen.jpg" href="#kitchen-projects" />
-            <CategoryCard title="Bathrooms" imageSrc="/images/bathroom.jpg" href="#bathroom-projects" />
-            <CategoryCard title="Closets" imageSrc="/images/closets.jpg" href="#closet-projects" />
-            <CategoryCard title="Basements" imageSrc="/images/basements.jpg" href="#basement-projects" />
-            <CategoryCard title="Commercial" imageSrc="/images/commercial.jpg" href="#commercial-projects" />
-            <CategoryCard title="Other Projects" imageSrc="/images/other-projects.jpg" href="#other-projects" />
+            <CategoryCard title="Kitchens" imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg" href="#kitchen-projects" />
+            <CategoryCard title="Bathrooms" imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg" href="#bathroom-projects" />
+            <CategoryCard title="Closets" imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg" href="#closet-projects" />
+            <CategoryCard title="Basements" imageSrc="/images/basements/Basement darker vaulted ceilings.png" href="#basement-projects" />
+            <CategoryCard title="Commercial" imageSrc="/images/commerical building metal stud.jpg" href="#commercial-projects" />
+            <CategoryCard title="Other Projects" imageSrc="/images/BH Deck Mid Construction.jpg" href="#other-projects" />
           </div>
         </div>
       </section>
