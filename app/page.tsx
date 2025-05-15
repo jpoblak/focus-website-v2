@@ -114,7 +114,7 @@ export default function Home() {
             <ServiceCard
               title="Commercial"
               description="Professional renovation services for retail spaces, offices, restaurants, and other commercial properties."
-              imageSrc="/images/commerical building metal stud.jpg"
+              imageSrc="/images/commercial/commerical building metal stud.jpg"
               link="/services#commercial"
             />
             <ServiceCard

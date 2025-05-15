@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <div className="mb-4">
+            <div className="flex items-center mb-4">
               <Image
                 src="/images/logo-horizontal.png"
                 alt="Focus Construction"
@@ -18,30 +18,32 @@ export default function Footer() {
                 height={43}
                 className="object-contain"
               />
+              <div className="flex-1 flex justify-center">
+                <div className="flex space-x-4">
+                  <a
+                    href="https://www.facebook.com/FocusConstructionMI/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                    className="text-white hover:text-primary-400 transition-colors"
+                  >
+                    <Facebook size={20} />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/focusconstructionmi/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                    className="text-white hover:text-primary-400 transition-colors"
+                  >
+                    <Instagram size={20} />
+                  </a>
+                </div>
+              </div>
             </div>
-            <p className="text-neutral-300 mb-4">
-              Your expert partner for commercial and residential remodeling. We specialize in transforming spaces like kitchens, bathrooms, offices, and more.
+            <p className="text-neutral-300">
+              Expert commercial and residential remodeling and repair services. From kitchens and bathrooms to full commercial build-outs, we bring your vision to life.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.facebook.com/FocusConstructionMI/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Facebook"
-                className="text-white hover:text-primary-400 transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="https://www.instagram.com/focusconstructionmi/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="text-white hover:text-primary-400 transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-            </div>
           </div>
 
           <div>

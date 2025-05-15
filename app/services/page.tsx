@@ -138,7 +138,7 @@ export default function ServicesPage() {
           {/* Basements Service */}
           <div id="basements" className="grid md:grid-cols-2 gap-12 items-center mb-20 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/basements/Basement mid-remodel.png" alt="Basement Renovations" fill className="object-cover" />
+              <Image src="/images/basements/Basement darker vaulted ceilings.png" alt="Basement Renovations" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4">Basement Renovations</h2>
@@ -201,14 +201,14 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image src="/images/commercial.jpg" alt="Commercial Renovations" fill className="object-cover" />
+              <Image src="/images/commercial/commerical building metal stud.jpg" alt="Commercial Renovations" fill className="object-cover" />
             </div>
           </div>
 
           {/* Additional Services */}
           <div id="more" className="grid md:grid-cols-2 gap-12 items-center mb-12 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/more-services.jpg" alt="Additional Services" fill className="object-cover" />
+              <Image src="/images/BH Deck Mid Construction.jpg" alt="Additional Services" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4">Additional Services</h2>

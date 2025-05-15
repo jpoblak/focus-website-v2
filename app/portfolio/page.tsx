@@ -32,7 +32,7 @@ export default function PortfolioPage() {
             <CategoryCard title="Bathrooms" imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg" href="#bathroom-projects" />
             <CategoryCard title="Closets" imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg" href="#closet-projects" />
             <CategoryCard title="Basements" imageSrc="/images/basements/Basement darker vaulted ceilings.png" href="#basement-projects" />
-            <CategoryCard title="Commercial" imageSrc="/images/commerical building metal stud.jpg" href="#commercial-projects" />
+            <CategoryCard title="Commercial" imageSrc="/images/commercial/commerical building metal stud.jpg" href="#commercial-projects" />
             <CategoryCard title="Other Projects" imageSrc="/images/BH Deck Mid Construction.jpg" href="#other-projects" />
           </div>
         </div>
@@ -211,12 +211,6 @@ export default function PortfolioPage() {
               imageSrc="/images/basement-project-3.jpg"
               description="Complete basement apartment with kitchenette, bathroom, and living space."
             />
-            <ProjectCard
-              title="New Basement Design 1"
-              location="City, MI"
-              imageSrc="/images/basements/Basement mid-remodel.png"
-              description="Placeholder description for a basement project, currently mid-remodel."
-            />
           </div>
           <div className="mt-8 text-center">
             <Link href="/quote" className="btn-primary">
@@ -246,7 +240,7 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Restaurant Buildout"
               location="Detroit, MI"
-              imageSrc="/images/commercial-project-3.jpg"
+              imageSrc="/images/commercial/Restaurant Buildout.png"
               description="Custom restaurant buildout including kitchen, dining area, and bar."
             />
           </div>
@@ -264,10 +258,10 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Additional Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Deck Construction"
-              location="Northville, MI"
-              imageSrc="/images/other-project-1.jpg"
-              description="Custom deck with composite decking, built-in seating, and pergola."
+              title="Covered Deck Construction"
+              location="Shelby Township, MI"
+              imageSrc="/images/BH Deck Mid Construction.jpg"
+              description="Custom concrete deck, built-in seating for fire pit, and metal pergola."
             />
             <ProjectCard
               title="Home Addition"
