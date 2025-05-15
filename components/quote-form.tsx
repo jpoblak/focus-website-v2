@@ -88,12 +88,13 @@ export default function QuoteForm() {
 
       <div>
         <label htmlFor="address" className="block text-sm font-medium text-neutral-700 mb-1">
-          Address
+          Address *
         </label>
         <input
           type="text"
           id="address"
           name="address"
+          required
           className="w-full px-4 py-2 border border-neutral-300 rounded-md focus:ring-2 focus:ring-secondary-500 focus:border-secondary-500"
         />
       </div>

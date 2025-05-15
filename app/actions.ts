@@ -16,7 +16,7 @@ export async function sendQuoteRequest(formData: FormData) {
     const hearAbout = formData.get("hearAbout") as string
 
     // Validate required fields
-    if (!firstName || !lastName || !email || !phone || !projectType || !message) {
+    if (!firstName || !lastName || !email || !phone || !address || !projectType || !message) {
       return {
         success: false,
         message: "Please fill in all required fields.",
@@ -56,23 +56,23 @@ export async function sendQuoteRequest(formData: FormData) {
         const resend = new Resend(resendApiKey)
 
         await resend.emails.send({
-          from: "Focus Construction <no-reply@focusconstructionmi.com>",
+          from: "Focus Construction <no-reply@focus-mi.com>",
           to: emailTo,
           subject: `New Quote Request: ${projectType} from ${firstName} ${lastName}`,
           html: emailContent,
-          reply_to: email,
+          replyTo: email,
         })
 
         // Also send a confirmation email to the customer
         await resend.emails.send({
-          from: "Focus Construction <no-reply@focusconstructionmi.com>",
+          from: "Focus Construction <no-reply@focus-mi.com>",
           to: email,
           subject: "We've Received Your Quote Request",
           html: `
             <h1>Thank You for Contacting Focus Construction</h1>
             <p>Dear ${firstName},</p>
             <p>We've received your request for a quote regarding your ${projectType} project. Our team will review your information and get back to you as soon as possible.</p>
-            <p>If you have any immediate questions, please don't hesitate to call us at (555) 123-4567.</p>
+            <p>If you have any immediate questions, please don't hesitate to call us at (248) 228-2222.</p>
             <p>Best regards,</p>
             <p>The Focus Construction Team</p>
           `,
@@ -82,7 +82,7 @@ export async function sendQuoteRequest(formData: FormData) {
         // Fall back to logging if email sending fails
         console.log("Quote request received:", {
           to: emailTo,
-          from: "no-reply@focusconstructionmi.com",
+          from: "Focus Construction <no-reply@focus-mi.com>",
           subject: `New Quote Request: ${projectType} from ${firstName} ${lastName}`,
           html: emailContent,
         })
@@ -91,7 +91,7 @@ export async function sendQuoteRequest(formData: FormData) {
       // If no Resend API key, just log the email content
       console.log("Quote request received:", {
         to: emailTo,
-        from: "no-reply@focusconstructionmi.com",
+        from: "Focus Construction <no-reply@focus-mi.com>",
         subject: `New Quote Request: ${projectType} from ${firstName} ${lastName}`,
         html: emailContent,
       })
