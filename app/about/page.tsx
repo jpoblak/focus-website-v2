@@ -35,7 +35,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/our-story.jpg" alt="Focus Construction Team" fill className="object-cover" />
+              <Image src="/images/logo.png" alt="Focus Construction Team" fill className="object-contain" />
             </div>
           </div>
         </div>
@@ -220,7 +220,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex-1 md:pl-8 md:order-3 w-full md:w-auto mt-4 md:mt-0 min-w-0">
                     <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
-                      <Image src="/images/general/process_consultation.jpg" alt="Initial Consultation illustration" fill className="object-cover" />
+                      <Image src="/images/general/Contractor Meeting.png" alt="Initial Consultation illustration" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
@@ -262,7 +262,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex-1 md:pl-8 md:order-3 w-full md:w-auto mt-4 md:mt-0 min-w-0">
                     <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
-                      <Image src="/images/general/process_proposal.jpg" alt="Proposal and contract illustration" fill className="object-cover" />
+                      <Image src="/images/general/Contract propsal copy.jpg" alt="Proposal and contract illustration" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex-1 md:pr-8 order-2 md:order-1 w-full md:w-auto mt-4 md:mt-0 min-w-0">
                     <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
-                      <Image src="/images/general/process_execution.jpg" alt="Project execution in progress" fill className="object-cover" />
+                      <Image src="/images/general/Project execution.png" alt="Project execution in progress" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
@@ -304,7 +304,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex-1 md:pl-8 md:order-3 w-full md:w-auto mt-4 md:mt-0 min-w-0">
                     <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
-                      <Image src="/images/general/process_walkthrough.jpg" alt="Final project walkthrough" fill className="object-cover" />
+                      <Image src="/images/general/Final walkthrough.jpg" alt="Final project walkthrough" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
