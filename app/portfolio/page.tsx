@@ -46,38 +46,38 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Modern Kitchen Remodel"
               location="Ann Arbor, MI"
-              imageSrc="/images/kitchen-project-1.jpg"
-              description="Complete kitchen renovation with custom cabinetry, quartz countertops, and new appliances."
+              imageSrc="/images/kitchens/Kitchen : Living Room.jpg"
+              description="Open-concept kitchen with custom white cabinetry, quartz countertops, and modern appliances."
             />
             <ProjectCard
               title="Farmhouse Kitchen"
               location="Plymouth, MI"
-              imageSrc="/images/kitchen-project-2.jpg"
-              description="Rustic farmhouse kitchen with shaker cabinets, butcher block island, and subway tile backsplash."
+              imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
+              description="Rustic farmhouse kitchen with shaker cabinets, butcher block island, and farmhouse sink."
             />
             <ProjectCard
               title="Contemporary Open Concept"
               location="Royal Oak, MI"
-              imageSrc="/images/kitchen-project-3.jpg"
-              description="Open concept kitchen with waterfall island, minimalist cabinetry, and integrated appliances."
+              imageSrc="/images/kitchens/Kitchen Brown Cabinets with Light Accents.jpg"
+              description="Modern kitchen with brown cabinetry, waterfall island, and integrated appliances."
             />
             <ProjectCard
-              title="New Kitchen Design 1"
-              location="City, MI"
+              title="Luxury White Kitchen"
+              location="Novi, MI"
               imageSrc="/images/kitchens/Kitchen White with Wood Slat Ceiling.jpg"
-              description="Placeholder description for a beautiful new kitchen featuring a wood slat ceiling."
+              description="White kitchen with wood slat ceiling, custom cabinetry, and premium finishes."
             />
             <ProjectCard
-              title="New Kitchen Design 2"
-              location="City, MI"
+              title="Modern Contrast Kitchen"
+              location="Bloomfield Hills, MI"
               imageSrc="/images/kitchens/Kitchen White Fancy Cabients w Dark Counter and BAcksplash .jpg"
-              description="Placeholder description for a fancy kitchen with white cabinets and dark accents."
+              description="White cabinetry with dark countertops and statement backsplash."
             />
             <ProjectCard
-              title="New Kitchen Design 3"
-              location="City, MI"
+              title="Classic Monochrome Kitchen"
+              location="West Bloomfield, MI"
               imageSrc="/images/kitchens/Kitchen White Cabinets w Black Counter.jpg"
-              description="Placeholder description for a classic kitchen with white cabinets and black counters."
+              description="Timeless design with white cabinetry and black countertops."
             />
           </div>
           <div className="mt-8 text-center">
@@ -96,38 +96,38 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Luxury Master Bath"
               location="Birmingham, MI"
-              imageSrc="/images/bathroom-project-1.jpg"
-              description="Spa-like master bathroom with freestanding tub, walk-in shower, and double vanity."
+              imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
+              description="Spa-inspired master bath with freestanding tub and walk-in shower."
             />
             <ProjectCard
               title="Guest Bathroom Refresh"
-              location="Novi, MI"
-              imageSrc="/images/bathroom-project-2.jpg"
-              description="Complete guest bathroom renovation with modern fixtures and custom tile work."
+              location="Northville, MI"
+              imageSrc="/images/bathrooms/Cotswold Bathroom After 2 cropped.jpg"
+              description="Modern guest bathroom with custom tile work and designer fixtures."
             />
             <ProjectCard
               title="Powder Room Makeover"
               location="Ferndale, MI"
-              imageSrc="/images/bathroom-project-3.jpg"
-              description="Small powder room with big impact featuring custom vanity and statement wallpaper."
+              imageSrc="/images/bathrooms/Bathroom Neutral w: Tub.jpg"
+              description="Elegant powder room with custom vanity and statement wallpaper."
             />
             <ProjectCard
-              title="New Bathroom Design 1"
-              location="City, MI"
-              imageSrc="/images/bathrooms/Bathroom White Small White.jpg"
-              description="Placeholder description for a compact and elegant white bathroom design."
+              title="Modern Bathroom Design"
+              location="Farmington Hills, MI"
+              imageSrc="/images/bathrooms/Bathroom Light Tub and Vanity.jpg"
+              description="Contemporary bathroom with freestanding tub and custom vanity."
             />
             <ProjectCard
-              title="New Bathroom Design 2"
-              location="City, MI"
+              title="Luxury Double Vanity Bath"
+              location="Grosse Pointe, MI"
               imageSrc="/images/bathrooms/Bathroom White Double Vanity.jpg"
-              description="Placeholder description for a spacious white bathroom with a double vanity."
+              description="Spacious bathroom with double vanity and custom tile work."
             />
             <ProjectCard
-              title="New Bathroom Design 3"
-              location="City, MI"
-              imageSrc="/images/bathrooms/Bathroom Shower Tile With Accent Strip.jpg"
-              description="Placeholder description for a modern bathroom shower with accent tiles."
+              title="Modern Shower Bath"
+              location="Dearborn, MI"
+              imageSrc="/images/bathrooms/Hubbell Bathroom Opening After.jpg"
+              description="Contemporary bathroom with custom shower and accent tiles."
             />
           </div>
           <div className="mt-8 text-center">
@@ -146,38 +146,38 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Walk-in Closet System"
               location="Troy, MI"
-              imageSrc="/images/closet-project-1.jpg"
-              description="Custom walk-in closet with built-in drawers, shoe racks, and hanging storage."
+              imageSrc="/images/closets/Closet Neutral.jpg"
+              description="Custom walk-in closet with built-in drawers and shoe storage."
             />
             <ProjectCard
               title="Reach-in Closet Makeover"
               location="Rochester, MI"
-              imageSrc="/images/closet-project-2.jpg"
-              description="Maximized storage in a reach-in closet with custom shelving and organization solutions."
+              imageSrc="/images/closets/Closet White Simple w Laminater Floors.jpg"
+              description="Efficient reach-in closet with custom shelving and laminate flooring."
             />
             <ProjectCard
               title="Mudroom Storage"
               location="Canton, MI"
-              imageSrc="/images/closet-project-3.jpg"
-              description="Functional mudroom with custom lockers, bench seating, and shoe storage."
+              imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
+              description="Functional mudroom with custom lockers and bench seating."
             />
             <ProjectCard
-              title="New Closet Design 1"
-              location="City, MI"
-              imageSrc="/images/closets/Closet White with wood floors.jpg"
-              description="Placeholder description for a white closet with elegant wood flooring."
+              title="Elegant Closet Design"
+              location="Northville, MI"
+              imageSrc="/images/closets/Closet White w Brown Laminate Floors.jpg"
+              description="White cabinetry with brown laminate flooring and custom shelving."
             />
             <ProjectCard
-              title="New Closet Design 2"
-              location="City, MI"
+              title="Modern Carpeted Closet"
+              location="Plymouth, MI"
               imageSrc="/images/closets/Closet White w Carpet Floors near bathroom.jpg"
-              description="Placeholder description for a white carpeted closet, possibly near a bathroom."
+              description="Contemporary closet with white cabinetry and plush carpeting."
             />
             <ProjectCard
-              title="New Closet Design 3"
-              location="City, MI"
+              title="Luxury Closet Design"
+              location="Birmingham, MI"
               imageSrc="/images/closets/Closet Dark Lighting.jpg"
-              description="Placeholder description for a closet with sophisticated dark lighting."
+              description="Premium closet with sophisticated lighting and custom cabinetry."
             />
           </div>
           <div className="mt-8 text-center">
@@ -196,20 +196,20 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Entertainment Basement"
               location="West Bloomfield, MI"
-              imageSrc="/images/basement-project-1.jpg"
-              description="Finished basement with home theater, wet bar, and game area for family entertainment."
+              imageSrc="/images/basements/Basement darker vaulted ceilings.png"
+              description="Luxury basement with home theater and custom wet bar."
             />
             <ProjectCard
-              title="Basement Home Office"
+              title="Basement Den w/ Office"
               location="Livonia, MI"
-              imageSrc="/images/basement-project-2.jpg"
-              description="Converted basement space into a functional home office with built-in storage."
+              imageSrc="/images/basements/Basement Egress Window Carpet.jpg"
+              description="Multi-functional basement with home office and den space."
             />
             <ProjectCard
               title="Basement Apartment"
               location="Ann Arbor, MI"
-              imageSrc="/images/basement-project-3.jpg"
-              description="Complete basement apartment with kitchenette, bathroom, and living space."
+              imageSrc="/images/basements/Basement White LVP.png"
+              description="Complete basement apartment with kitchenette and living space."
             />
           </div>
           <div className="mt-8 text-center">
@@ -226,22 +226,22 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Commercial Renovations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Retail Store Renovation"
+              title="Nail Salon Renovation"
               location="Royal Oak, MI"
-              imageSrc="/images/commercial-project-1.jpg"
-              description="Complete retail space renovation with custom displays and updated lighting."
+              imageSrc="/images/commercial/Nail Salon.png"
+              description="Professional nail salon with custom workstations and modern fixtures."
             />
             <ProjectCard
               title="Office Space Remodel"
-              location="Southfield, MI"
-              imageSrc="/images/commercial-project-2.jpg"
-              description="Modern office renovation with open workspace, conference room, and break area."
+              location="Troy, MI"
+              imageSrc="/images/commercial/Troy office.jpg"
+              description="Contemporary office with open workspace and conference room."
             />
             <ProjectCard
               title="Restaurant Buildout"
               location="Detroit, MI"
               imageSrc="/images/commercial/Restaurant Buildout.png"
-              description="Custom restaurant buildout including kitchen, dining area, and bar."
+              description="Complete restaurant buildout with commercial kitchen and bar."
             />
           </div>
           <div className="mt-8 text-center">
@@ -261,19 +261,19 @@ export default function PortfolioPage() {
               title="Covered Deck Construction"
               location="Shelby Township, MI"
               imageSrc="/images/BH Deck Mid Construction.jpg"
-              description="Custom concrete deck, built-in seating for fire pit, and metal pergola."
+              description="Custom covered deck with built-in seating and fire pit area."
             />
             <ProjectCard
-              title="Home Addition"
+              title="Home Theater"
               location="Birmingham, MI"
-              imageSrc="/images/other-project-2.jpg"
-              description="Two-story home addition with master suite and expanded living space."
+              imageSrc="/images/general/Home Theater WB.jpg"
+              description="Luxury home theater with custom seating and premium equipment."
             />
             <ProjectCard
-              title="Whole Home Renovation"
-              location="Grosse Pointe, MI"
-              imageSrc="/images/other-project-3.jpg"
-              description="Complete home renovation including kitchen, bathrooms, and living spaces."
+              title="Dock Resurfacing"
+              location="Harrison Township, MI"
+              imageSrc="/images/general/Dock-After.jpg"
+              description="Professional dock resurfacing with pre-stained wood and custom railings."
             />
           </div>
           <div className="mt-8 text-center">
@@ -325,10 +325,19 @@ function ProjectCard({
   imageSrc,
   description,
 }: { title: string; location: string; imageSrc: string; description: string }) {
+  // Check if this is one of the specific closet images that needs object-contain
+  const isSpecialClosetImage = imageSrc === "/images/closets/Closet Neutral.jpg" || 
+                             imageSrc === "/images/closets/Closet White Simple w Laminater Floors.jpg";
+  
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
       <div className="relative h-64">
-        <Image src={imageSrc || "/placeholder.svg?height=400&width=600"} alt={title} fill className="object-cover" />
+        <Image 
+          src={imageSrc || "/placeholder.svg?height=400&width=600"} 
+          alt={title} 
+          fill 
+          className={isSpecialClosetImage ? "object-contain" : "object-cover"} 
+        />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-1 text-neutral-900">{title}</h3>
