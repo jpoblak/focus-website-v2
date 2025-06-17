@@ -143,7 +143,7 @@ export default function Home() {
             <p className="max-w-2xl mx-auto text-neutral-700 mb-2">
               See what our satisfied customers have to say about our work. We're proud to share our 5-star reviews.
             </p>
-            <p className="text-sm text-neutral-500 mb-8">Reviews from our Google Business page</p>
+            <p className="text-sm text-neutral-500 mb-8">Reviews from our Google Business page & Internal Reviews</p>
           </div>
 
           <GoogleReviews />
