@@ -92,36 +92,42 @@ export default function Home() {
               description="Upgrade your kitchen with custom cabinetry, premium countertops, and a layout that blends beauty with function."
               imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
               link="/services#kitchens"
+              imageAlt="A bright, modern kitchen with light-colored cabinets, a two-tiered island, and stainless steel appliances."
             />
             <ServiceCard
               title="Bathrooms"
               description="Transform your bathroom into a spa-like retreat with sleek vanities, modern fixtures, and luxurious tile work."
               imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
               link="/services#bathrooms"
+              imageAlt="A spacious, well-lit bathroom with a large freestanding tub and a glass-enclosed walk-in shower."
             />
             <ServiceCard
               title="Closets"
               description="Maximize your storage space with custom closet solutions designed to fit your specific needs and style."
               imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
               link="/services#closets"
+              imageAlt="A custom closet system with dark wood shelving and drawers, set against light-colored walls."
             />
             <ServiceCard
               title="Basements"
               description="Convert your unfinished basement into a functional living space, from entertainment rooms to home offices."
               imageSrc="/images/basements/Basement darker vaulted ceilings.png"
               link="/services#basements"
+              imageAlt="A renovated basement featuring dark, vaulted ceilings and comfortable furnishings for entertainment."
             />
             <ServiceCard
               title="Commercial"
               description="Professional renovation services for retail spaces, offices, restaurants, and other commercial properties."
               imageSrc="/images/commercial/commerical building metal stud.jpg"
               link="/services#commercial"
+              imageAlt="The interior of a commercial building under construction, showing the metal stud framing for new walls."
             />
             <ServiceCard
               title="And More"
               description="From flooring and painting to general repairs and custom carpentry, we handle all your home improvement needs."
               imageSrc="/images/BH Deck Mid Construction.jpg"
               link="/services#more"
+              imageAlt="The wooden frame of a new deck being built onto the back of a house."
             />
           </div>
         </div>

@@ -6,9 +6,10 @@ interface ServiceCardProps {
   description: string
   imageSrc: string
   link: string
+  imageAlt: string
 }
 
-export default function ServiceCard({ title, description, imageSrc, link }: ServiceCardProps) {
+export default function ServiceCard({ title, description, imageSrc, link, imageAlt }: ServiceCardProps) {
   return (
     <div className="group relative rounded-xl overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary-500/10 border border-neutral-200/50">
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-70 group-hover:opacity-80 transition-opacity z-10"></div>
@@ -16,7 +17,7 @@ export default function ServiceCard({ title, description, imageSrc, link }: Serv
       <div className="relative h-72 image-hover-zoom">
         <Image
           src={imageSrc || "/placeholder.svg"}
-          alt={title}
+          alt={imageAlt}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-110"
         />

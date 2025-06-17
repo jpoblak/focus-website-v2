@@ -35,7 +35,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/logo.png" alt="Focus Construction Team" fill className="object-contain" />
+              <Image src="/images/logo.png" alt="Focus Construction Logo" fill className="object-contain" />
             </div>
           </div>
         </div>

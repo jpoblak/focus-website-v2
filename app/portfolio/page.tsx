@@ -28,12 +28,42 @@ export default function PortfolioPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <CategoryCard title="Kitchens" imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg" href="#kitchen-projects" />
-            <CategoryCard title="Bathrooms" imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg" href="#bathroom-projects" />
-            <CategoryCard title="Closets" imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg" href="#closet-projects" />
-            <CategoryCard title="Basements" imageSrc="/images/basements/Basement darker vaulted ceilings.png" href="#basement-projects" />
-            <CategoryCard title="Commercial" imageSrc="/images/commercial/commerical building metal stud.jpg" href="#commercial-projects" />
-            <CategoryCard title="Other Projects" imageSrc="/images/BH Deck Mid Construction.jpg" href="#other-projects" />
+            <CategoryCard
+              title="Kitchens"
+              imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
+              href="#kitchen-projects"
+              imageAlt="A beautifully remodeled kitchen with stainless steel appliances, representing the kitchen projects category."
+            />
+            <CategoryCard
+              title="Bathrooms"
+              imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
+              href="#bathroom-projects"
+              imageAlt="A luxurious modern bathroom with a freestanding tub, representing the bathroom projects category."
+            />
+            <CategoryCard
+              title="Closets"
+              imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
+              href="#closet-projects"
+              imageAlt="A custom walk-in closet with dark wood organizers, representing the closet projects category."
+            />
+            <CategoryCard
+              title="Basements"
+              imageSrc="/images/basements/Basement darker vaulted ceilings.png"
+              href="#basement-projects"
+              imageAlt="A renovated basement with dark vaulted ceilings, representing the basement projects category."
+            />
+            <CategoryCard
+              title="Commercial"
+              imageSrc="/images/commercial/commerical building metal stud.jpg"
+              href="#commercial-projects"
+              imageAlt="The metal stud framing of a commercial space under renovation, representing the commercial projects category."
+            />
+            <CategoryCard
+              title="Other Projects"
+              imageSrc="/images/BH Deck Mid Construction.jpg"
+              href="#other-projects"
+              imageAlt="A new deck under construction, representing the other projects category."
+            />
           </div>
         </div>
       </section>
@@ -44,40 +74,46 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Kitchen Renovations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Modern Kitchen Remodel"
+              title="Open Concept Kitchen "
               location="Ann Arbor, MI"
               imageSrc="/images/kitchens/Kitchen : Living Room.jpg"
-              description="Open-concept kitchen with custom white cabinetry, quartz countertops, and modern appliances."
+              description="Open layout featuring granite counters, natural wood cabinetry, and a spacious island with built-in cooktop and seating."
+              imageAlt="Open concept kitchen with natural wood cabinets, granite countertops, and a large island overlooking a living room area."
             />
             <ProjectCard
               title="Farmhouse Kitchen"
               location="Plymouth, MI"
               imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
               description="Rustic farmhouse kitchen with shaker cabinets, butcher block island, and farmhouse sink."
+              imageAlt="Bright farmhouse kitchen with white shaker cabinets, a butcher block island, and stainless steel appliances."
             />
             <ProjectCard
               title="Contemporary Open Concept"
               location="Royal Oak, MI"
               imageSrc="/images/kitchens/Kitchen Brown Cabinets with Light Accents.jpg"
               description="Modern kitchen with brown cabinetry, waterfall island, and integrated appliances."
+              imageAlt="Contemporary kitchen with flat-panel brown cabinets, a white waterfall island, and integrated appliances for a seamless look."
             />
             <ProjectCard
               title="Luxury White Kitchen"
               location="Novi, MI"
               imageSrc="/images/kitchens/Kitchen White with Wood Slat Ceiling.jpg"
               description="White kitchen with wood slat ceiling, custom cabinetry, and premium finishes."
+              imageAlt="Elegant white kitchen featuring a distinctive wood slat ceiling, gold fixtures, and high-end finishes."
             />
             <ProjectCard
               title="Modern Contrast Kitchen"
               location="Bloomfield Hills, MI"
               imageSrc="/images/kitchens/Kitchen White Fancy Cabients w Dark Counter and BAcksplash .jpg"
               description="White cabinetry with dark countertops and statement backsplash."
+              imageAlt="A modern kitchen with a strong contrast between white cabinets and dark countertops and a matching full-height backsplash."
             />
             <ProjectCard
               title="Classic Monochrome Kitchen"
               location="West Bloomfield, MI"
               imageSrc="/images/kitchens/Kitchen White Cabinets w Black Counter.jpg"
               description="Timeless design with white cabinetry and black countertops."
+              imageAlt="A classic kitchen design with clean white cabinets, simple hardware, and bold black countertops."
             />
           </div>
           <div className="mt-8 text-center">
@@ -98,36 +134,42 @@ export default function PortfolioPage() {
               location="Birmingham, MI"
               imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
               description="Spa-inspired master bath with freestanding tub and walk-in shower."
+              imageAlt="Bright, spa-like master bathroom with a freestanding tub, glass-enclosed shower, and light-colored vanity."
             />
             <ProjectCard
               title="Guest Bathroom Refresh"
               location="Northville, MI"
               imageSrc="/images/bathrooms/Cotswold Bathroom After 2 cropped.jpg"
               description="Modern guest bathroom with custom tile work and designer fixtures."
+              imageAlt="A refreshed guest bathroom with patterned floor tiles, a modern vanity, and gold fixtures."
             />
             <ProjectCard
               title="Powder Room Makeover"
               location="Ferndale, MI"
               imageSrc="/images/bathrooms/Bathroom Neutral w: Tub.jpg"
               description="Elegant powder room with custom vanity and statement wallpaper."
+              imageAlt="A stylish powder room featuring a neutral color palette, a pedestal sink, and a combination shower and tub."
             />
             <ProjectCard
               title="Modern Bathroom Design"
               location="Farmington Hills, MI"
               imageSrc="/images/bathrooms/Bathroom Light Tub and Vanity.jpg"
               description="Contemporary bathroom with freestanding tub and custom vanity."
+              imageAlt="A contemporary bathroom with a sleek freestanding bathtub placed by a large window and a floating vanity."
             />
             <ProjectCard
               title="Luxury Double Vanity Bath"
               location="Grosse Pointe, MI"
               imageSrc="/images/bathrooms/Bathroom White Double Vanity.jpg"
               description="Spacious bathroom with double vanity and custom tile work."
+              imageAlt="A spacious and luxurious bathroom with a white double vanity, large mirrors, and elegant lighting fixtures."
             />
             <ProjectCard
               title="Modern Shower Bath"
               location="Dearborn, MI"
               imageSrc="/images/bathrooms/Hubbell Bathroom Opening After.jpg"
               description="Contemporary bathroom with custom shower and accent tiles."
+              imageAlt="Modern bathroom focusing on a walk-in shower with custom accent tiles and a frameless glass door."
             />
           </div>
           <div className="mt-8 text-center">
@@ -148,36 +190,42 @@ export default function PortfolioPage() {
               location="Troy, MI"
               imageSrc="/images/closets/Closet Neutral.jpg"
               description="Custom walk-in closet with built-in drawers and shoe storage."
+              imageAlt="A well-organized walk-in closet with neutral-colored custom shelving, drawers, and dedicated shoe storage."
             />
             <ProjectCard
               title="Reach-in Closet Makeover"
               location="Rochester, MI"
               imageSrc="/images/closets/Closet White Simple w Laminater Floors.jpg"
               description="Efficient reach-in closet with custom shelving and laminate flooring."
+              imageAlt="A clean and simple reach-in closet with white shelving and rods, against a backdrop of laminate flooring."
             />
             <ProjectCard
               title="Mudroom Storage"
               location="Canton, MI"
               imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
               description="Functional mudroom with custom lockers and bench seating."
+              imageAlt="A functional mudroom storage solution with dark wood lockers, hooks for coats, and a built-in bench."
             />
             <ProjectCard
               title="Elegant Closet Design"
               location="Northville, MI"
               imageSrc="/images/closets/Closet White w Brown Laminate Floors.jpg"
               description="White cabinetry with brown laminate flooring and custom shelving."
+              imageAlt="An elegant closet with white custom cabinetry and shelving, contrasted with warm brown laminate floors."
             />
             <ProjectCard
               title="Modern Carpeted Closet"
               location="Plymouth, MI"
               imageSrc="/images/closets/Closet White w Carpet Floors near bathroom.jpg"
               description="Contemporary closet with white cabinetry and plush carpeting."
+              imageAlt="A modern walk-in closet with white cabinets, ample hanging space, and soft grey carpeting."
             />
             <ProjectCard
               title="Luxury Closet Design"
               location="Birmingham, MI"
               imageSrc="/images/closets/Closet Dark Lighting.jpg"
               description="Premium closet with sophisticated lighting and custom cabinetry."
+              imageAlt="A luxury closet with dramatic, dark cabinetry and integrated lighting to showcase clothing and accessories."
             />
           </div>
           <div className="mt-8 text-center">
@@ -198,18 +246,21 @@ export default function PortfolioPage() {
               location="West Bloomfield, MI"
               imageSrc="/images/basements/Basement darker vaulted ceilings.png"
               description="Luxury basement with home theater and custom wet bar."
+              imageAlt="A finished basement designed for entertainment with a large screen, comfortable seating, and dark vaulted ceilings."
             />
             <ProjectCard
               title="Basement Den w/ Office"
               location="Livonia, MI"
               imageSrc="/images/basements/Basement Egress Window Carpet.jpg"
               description="Multi-functional basement with home office and den space."
+              imageAlt="A bright basement living space with an egress window, carpeted floor, and set up as a den and office area."
             />
             <ProjectCard
               title="Basement Apartment"
               location="Ann Arbor, MI"
               imageSrc="/images/basements/Basement White LVP.png"
               description="Complete basement apartment with kitchenette and living space."
+              imageAlt="A finished basement apartment with light-colored luxury vinyl plank flooring, a small kitchenette, and living area."
             />
           </div>
           <div className="mt-8 text-center">
@@ -230,18 +281,21 @@ export default function PortfolioPage() {
               location="Royal Oak, MI"
               imageSrc="/images/commercial/Nail Salon.png"
               description="Professional nail salon with custom workstations and modern fixtures."
+              imageAlt="A newly renovated nail salon with modern pedicure chairs, manicure stations, and bright lighting."
             />
             <ProjectCard
               title="Office Space Remodel"
               location="Troy, MI"
               imageSrc="/images/commercial/Troy office.jpg"
               description="Contemporary office with open workspace and conference room."
+              imageAlt="A modern, open-plan office space with workstations, glass-walled conference rooms, and collaborative areas."
             />
             <ProjectCard
               title="Restaurant Buildout"
               location="Detroit, MI"
               imageSrc="/images/commercial/Restaurant Buildout.png"
               description="Complete restaurant buildout with commercial kitchen and bar."
+              imageAlt="The interior of a restaurant under construction, showing the bar area and dining space being built out."
             />
           </div>
           <div className="mt-8 text-center">
@@ -262,18 +316,21 @@ export default function PortfolioPage() {
               location="Shelby Township, MI"
               imageSrc="/images/BH Deck Mid Construction.jpg"
               description="Custom covered deck with built-in seating and fire pit area."
+              imageAlt="A large wooden deck under construction, showing the framework and initial decking."
             />
             <ProjectCard
               title="Home Theater"
               location="Birmingham, MI"
               imageSrc="/images/general/Home Theater WB.jpg"
               description="Luxury home theater with custom seating and premium equipment."
+              imageAlt="A dedicated home theater room with plush tiered seating, a large projection screen, and acoustic wall panels."
             />
             <ProjectCard
               title="Dock Resurfacing"
               location="Harrison Township, MI"
               imageSrc="/images/general/Dock-After.jpg"
               description="Professional dock resurfacing with pre-stained wood and custom railings."
+              imageAlt="A newly resurfaced wooden boat dock with fresh stain and secure railings, extending over the water."
             />
           </div>
           <div className="mt-8 text-center">
@@ -296,7 +353,7 @@ export default function PortfolioPage() {
 }
 
 // Category Card Component - Removed project count
-function CategoryCard({ title, imageSrc, href }: { title: string; imageSrc: string; href: string }) {
+function CategoryCard({ title, imageSrc, href, imageAlt }: { title: string; imageSrc: string; href: string; imageAlt: string }) {
   return (
     <a
       href={href}
@@ -305,7 +362,7 @@ function CategoryCard({ title, imageSrc, href }: { title: string; imageSrc: stri
       <div className="relative h-64">
         <Image
           src={imageSrc || "/placeholder.svg?height=400&width=600"}
-          alt={title}
+          alt={imageAlt}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
@@ -324,19 +381,26 @@ function ProjectCard({
   location,
   imageSrc,
   description,
-}: { title: string; location: string; imageSrc: string; description: string }) {
+  imageAlt,
+}: {
+  title: string
+  location: string
+  imageSrc: string
+  description: string
+  imageAlt: string
+}) {
   // Check if this is one of the specific closet images that needs object-contain
-  const isSpecialClosetImage = imageSrc === "/images/closets/Closet Neutral.jpg" || 
-                             imageSrc === "/images/closets/Closet White Simple w Laminater Floors.jpg";
-  
+  const isSpecialClosetImage =
+    imageSrc === "/images/closets/Closet Neutral.jpg" || imageSrc === "/images/closets/Closet White Simple w Laminater Floors.jpg"
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
       <div className="relative h-64">
-        <Image 
-          src={imageSrc || "/placeholder.svg?height=400&width=600"} 
-          alt={title} 
-          fill 
-          className={isSpecialClosetImage ? "object-contain" : "object-cover"} 
+        <Image
+          src={imageSrc || "/placeholder.svg?height=400&width=600"}
+          alt={imageAlt}
+          fill
+          className={isSpecialClosetImage ? "object-contain" : "object-cover"}
         />
       </div>
       <div className="p-6">

@@ -62,14 +62,24 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image src="/images/kitchens/Kitchen White with Wood Slat Ceiling.jpg" alt="Kitchen Remodeling" fill className="object-cover" />
+              <Image
+                src="/images/kitchens/Kitchen White with Wood Slat Ceiling.jpg"
+                alt="A luxurious white kitchen with a unique wood slat ceiling and gold hardware accents."
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
           {/* Bathroom Service */}
           <div id="bathrooms" className="grid md:grid-cols-2 gap-12 items-center mb-20 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/bathrooms/Bathroom White Double Vanity.jpg" alt="Bathroom Remodeling" fill className="object-cover" />
+              <Image
+                src="/images/bathrooms/Bathroom White Double Vanity.jpg"
+                alt="An elegant all-white bathroom with a large double vanity, ornate mirrors, and modern light fixtures."
+                fill
+                className="object-cover"
+              />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4">Bathroom Remodeling</h2>
@@ -132,14 +142,24 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image src="/images/closets/Closet Dark Wood, Light walls.jpg" alt="Custom Closets" fill className="object-cover" />
+              <Image
+                src="/images/closets/Closet Dark Wood, Light walls.jpg"
+                alt="A well-organized custom closet or mudroom with dark wood cabinetry and storage against light walls."
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
           {/* Basements Service */}
           <div id="basements" className="grid md:grid-cols-2 gap-12 items-center mb-20 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/basements/Basement darker vaulted ceilings.png" alt="Basement Renovations" fill className="object-cover" />
+              <Image
+                src="/images/basements/Basement darker vaulted ceilings.png"
+                alt="A cozy, renovated basement with dark vaulted ceilings, creating a comfortable entertainment space."
+                fill
+                className="object-cover"
+              />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4">Basement Renovations</h2>
@@ -168,6 +188,14 @@ export default function ServicesPage() {
                   View Portfolio
                 </Link>
               </div>
+            </div>
+            <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
+              <Image
+                src="/images/commercial/commerical building metal stud.jpg"
+                alt="The exposed metal stud framework of a commercial space during the renovation process."
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
@@ -202,14 +230,24 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image src="/images/commercial/commerical building metal stud.jpg" alt="Commercial Renovations" fill className="object-cover" />
+              <Image
+                src="/images/commercial/commerical building metal stud.jpg"
+                alt="The exposed metal stud framework of a commercial space during the renovation process."
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
           {/* Additional Services */}
           <div id="more" className="grid md:grid-cols-2 gap-12 items-center mb-12 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
-              <Image src="/images/BH Deck Mid Construction.jpg" alt="Additional Services" fill className="object-cover" />
+              <Image
+                src="/images/BH Deck Mid Construction.jpg"
+                alt="The wood framing of a large outdoor deck being constructed."
+                fill
+                className="object-cover"
+              />
             </div>
             <div>
               <h2 className="text-3xl font-bold mb-4">Additional Services</h2>
