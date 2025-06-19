@@ -74,46 +74,46 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Kitchen Renovations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Open Concept Kitchen "
+              title="Open Concept Kitchen"
               location="Ann Arbor, MI"
               imageSrc="/images/kitchens/Kitchen : Living Room.jpg"
-              description="Open layout featuring granite counters, natural wood cabinetry, and a spacious island with built-in cooktop and seating."
-              imageAlt="Open concept kitchen with natural wood cabinets, granite countertops, and a large island overlooking a living room area."
+              description="Open-concept kitchen remodel featuring granite counters, natural wood cabinetry, and a spacious island with built-in cooktop and seating."
+              imageAlt="Luxury kitchen remodel with granite island, custom wood cabinetry, gas cooktop, hardwood floors, and open layout connecting to living and dining rooms"
             />
             <ProjectCard
-              title="Farmhouse Kitchen"
+              title="Clean Modern Kitchen"
               location="Plymouth, MI"
               imageSrc="/images/kitchens/Kitchen Light with Double Height Counter Stainless.jpg"
-              description="Rustic farmhouse kitchen with shaker cabinets, butcher block island, and farmhouse sink."
-              imageAlt="Bright farmhouse kitchen with white shaker cabinets, a butcher block island, and stainless steel appliances."
+              description="Kitchen remodel featuring white cabinetry, granite countertops, stainless steel appliances, and a clean subway tile backsplash."
+              imageAlt="Kitchen remodel with white cabinets, granite countertops, stainless steel appliances, and subway tile backsplash."
             />
             <ProjectCard
-              title="Contemporary Open Concept"
+              title="Cherry Wood Kitchen"
               location="Royal Oak, MI"
               imageSrc="/images/kitchens/Kitchen Brown Cabinets with Light Accents.jpg"
-              description="Modern kitchen with brown cabinetry, waterfall island, and integrated appliances."
-              imageAlt="Contemporary kitchen with flat-panel brown cabinets, a white waterfall island, and integrated appliances for a seamless look."
+              description="Cherry wood kitchen remodel with granite countertops, large-format tile flooring, and a white subway tile backsplash."
+              imageAlt="Cherry wood cabinet kitchen remodel with granite countertops, ceramic tile flooring, subway tile backsplash, and recessed lighting."
             />
             <ProjectCard
               title="Luxury White Kitchen"
               location="Novi, MI"
               imageSrc="/images/kitchens/Kitchen White with Wood Slat Ceiling.jpg"
-              description="White kitchen with wood slat ceiling, custom cabinetry, and premium finishes."
-              imageAlt="Elegant white kitchen featuring a distinctive wood slat ceiling, gold fixtures, and high-end finishes."
+              description="Custom kitchen remodel with white cabinets, natural wood finishes, contrasting island, and premium built-in appliances."
+              imageAlt="Custom kitchen remodel with white cabinets, natural wood finishes, contrasting island, and premium built-in appliances."
             />
             <ProjectCard
-              title="Modern Contrast Kitchen"
+              title="Traditional Contrast Kitchen"
               location="Bloomfield Hills, MI"
               imageSrc="/images/kitchens/Kitchen White Fancy Cabients w Dark Counter and BAcksplash .jpg"
-              description="White cabinetry with dark countertops and statement backsplash."
-              imageAlt="A modern kitchen with a strong contrast between white cabinets and dark countertops and a matching full-height backsplash."
+              description="Traditional kitchen remodel with cream-colored raised panel cabinets, dark granite countertops, custom tile backsplash, and hardwood flooring."
+              imageAlt="Kitchen remodel with raised panel cabinets, granite countertops, decorative tile backsplash, and stainless steel appliances."
             />
             <ProjectCard
               title="Classic Monochrome Kitchen"
               location="West Bloomfield, MI"
               imageSrc="/images/kitchens/Kitchen White Cabinets w Black Counter.jpg"
-              description="Timeless design with white cabinetry and black countertops."
-              imageAlt="A classic kitchen design with clean white cabinets, simple hardware, and bold black countertops."
+              description="Kitchen remodel with white shaker cabinets, black stone countertops, subway tile backsplash, and stainless steel appliances"
+              imageAlt="Kitchen remodel featuring white shaker cabinetry, black granite-style countertops, stainless appliances, and subway tile backsplash"
             />
           </div>
           <div className="mt-8 text-center">
@@ -130,46 +130,46 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Bathroom Transformations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Luxury Master Bath"
+              title="Luxury Master Bathroom"
               location="Birmingham, MI"
               imageSrc="/images/bathrooms/Bathroom Light Shower and Tub.jpg"
-              description="Spa-inspired master bath with freestanding tub and walk-in shower."
-              imageAlt="Bright, spa-like master bathroom with a freestanding tub, glass-enclosed shower, and light-colored vanity."
+              description="Full master bathroom remodel with double vanity, jacuzzi soaking tub, custom tile shower with glass enclosure, and modern light fixtures."
+              imageAlt="Bright, spa-like luxury master bathroom remodel with a jacuzzi tub, custom tile shower, and dual sink vanity."
             />
             <ProjectCard
-              title="Guest Bathroom Refresh"
+              title="Master Bathroom Refresh"
               location="Northville, MI"
               imageSrc="/images/bathrooms/Cotswold Bathroom After 2 cropped.jpg"
-              description="Modern guest bathroom with custom tile work and designer fixtures."
-              imageAlt="A refreshed guest bathroom with patterned floor tiles, a modern vanity, and gold fixtures."
+              description="Bathroom remodel converting tub to a walk-in shower, complete with full-height gray tile, sliding glass door, and updated vanity."
+              imageAlt="Bathroom remodel with tub converted to walk-in shower, large gray tile surround, grab bars, and frameless sliding glass doors."
             />
             <ProjectCard
-              title="Powder Room Makeover"
+              title="Contemporary Master Bathroom"
               location="Ferndale, MI"
               imageSrc="/images/bathrooms/Bathroom Neutral w: Tub.jpg"
-              description="Elegant powder room with custom vanity and statement wallpaper."
+              description="Luxury bathroom remodel with glass shower, integrated soaking tub, dual-sink vanity, and custom finishes designed for a spa-like experience."
               imageAlt="A stylish powder room featuring a neutral color palette, a pedestal sink, and a combination shower and tub."
             />
             <ProjectCard
-              title="Modern Bathroom Design"
+              title="Modern White Bathroom"
               location="Farmington Hills, MI"
               imageSrc="/images/bathrooms/Bathroom Light Tub and Vanity.jpg"
-              description="Contemporary bathroom with freestanding tub and custom vanity."
-              imageAlt="A contemporary bathroom with a sleek freestanding bathtub placed by a large window and a floating vanity."
+              description="Bathroom remodel featuring white shaker cabinets, gray quartz countertop, frameless glass shower, and a freestanding soaking tub with wood-look tile flooring."
+              imageAlt="Bathroom remodel with white vanity, quartz countertop, walk-in glass shower, freestanding tub, and light wood-look tile floor."
             />
             <ProjectCard
-              title="Luxury Double Vanity Bath"
+              title="Luxury Double Vanity Bathroom"
               location="Grosse Pointe, MI"
               imageSrc="/images/bathrooms/Bathroom White Double Vanity.jpg"
-              description="Spacious bathroom with double vanity and custom tile work."
-              imageAlt="A spacious and luxurious bathroom with a white double vanity, large mirrors, and elegant lighting fixtures."
+              description="Bathroom remodel featuring marble walls, floating vanity with quartz top, matte black fixtures, and dual mirrors with integrated lighting."
+              imageAlt="Bathroom remodel featuring marble walls, floating vanity with quartz top, matte black fixtures, and dual mirrors with integrated lighting."
             />
             <ProjectCard
-              title="Modern Shower Bath"
+              title="Modern Walk-In Shower"
               location="Dearborn, MI"
               imageSrc="/images/bathrooms/Hubbell Bathroom Opening After.jpg"
-              description="Contemporary bathroom with custom shower and accent tiles."
-              imageAlt="Modern bathroom focusing on a walk-in shower with custom accent tiles and a frameless glass door."
+              description="Tub-to-shower remodel designed for efficient use of space, with large-format marble-look tile, modern fixtures, and a compact white vanity."
+              imageAlt="Tub-to-shower conversion bathroom remodelwith accessible walk-in shower, safety grab bar, sliding glass panels, and marble-look tile walls"
             />
           </div>
           <div className="mt-8 text-center">
@@ -186,11 +186,11 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Custom Closet Solutions</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Walk-in Closet System"
+              title="Organized Walk-In Closet"
               location="Troy, MI"
               imageSrc="/images/closets/Closet Neutral.jpg"
-              description="Custom walk-in closet with built-in drawers and shoe storage."
-              imageAlt="A well-organized walk-in closet with neutral-colored custom shelving, drawers, and dedicated shoe storage."
+              description="Custom walk-in closet with built-in shelving, integrated drawers, hanging storage, and boutique-style organization"
+              imageAlt="Walk-in closet with built-in shelves, drawers, hanging sections, and organized layout next to ensuite bathroom"
             />
             <ProjectCard
               title="Reach-in Closet Makeover"
@@ -208,7 +208,7 @@ export default function PortfolioPage() {
             />
             <ProjectCard
               title="Elegant Closet Design"
-              location="Northville, MI"
+              location="Chesterfield, MI"
               imageSrc="/images/closets/Closet White w Brown Laminate Floors.jpg"
               description="White cabinetry with brown laminate flooring and custom shelving."
               imageAlt="An elegant closet with white custom cabinetry and shelving, contrasted with warm brown laminate floors."
