@@ -125,7 +125,7 @@ export default function Home() {
             <ServiceCard
               title="And More"
               description="From flooring and painting to general repairs and custom carpentry, we handle all your home improvement needs."
-              imageSrc="/images/BH Deck Mid Construction.jpg"
+              imageSrc="/images/general/Backyard Deck.jpg"
               link="/services#more"
               imageAlt="The wooden frame of a new deck being built onto the back of a house."
             />

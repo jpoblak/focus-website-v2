@@ -277,11 +277,11 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Commercial Renovations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Nail Salon Renovation"
-              location="Royal Oak, MI"
-              imageSrc="/images/commercial/Nail Salon.png"
-              description="Professional nail salon with custom workstations and modern fixtures."
-              imageAlt="A newly renovated nail salon with modern pedicure chairs, manicure stations, and bright lighting."
+              title="Office Cabinet Installation"
+              location="Milford, MI"
+              imageSrc="/images/general/Cabinets Milford.jpg"
+              description="Built-in cabinetry for break room with upper and lower storage, clean-lined millwork, and modern hardware tailored for high-traffic use."
+              imageAlt="Commercial break room cabinetry with brown shaker doors and white solid surface countertops."
             />
             <ProjectCard
               title="Office Space Remodel"

@@ -189,14 +189,6 @@ export default function ServicesPage() {
                 </Link>
               </div>
             </div>
-            <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
-              <Image
-                src="/images/commercial/commerical building metal stud.jpg"
-                alt="The exposed metal stud framework of a commercial space during the renovation process."
-                fill
-                className="object-cover"
-              />
-            </div>
           </div>
 
           {/* Commercial Service */}
@@ -243,7 +235,7 @@ export default function ServicesPage() {
           <div id="more" className="grid md:grid-cols-2 gap-12 items-center mb-12 scroll-mt-24">
             <div className="relative h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/images/BH Deck Mid Construction.jpg"
+                src="/images/general/Backyard Deck.jpg"
                 alt="The wood framing of a large outdoor deck being constructed."
                 fill
                 className="object-cover"
