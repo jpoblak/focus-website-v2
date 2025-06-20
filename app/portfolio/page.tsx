@@ -60,7 +60,7 @@ export default function PortfolioPage() {
             />
             <CategoryCard
               title="Other Projects"
-              imageSrc="/images/BH Deck Mid Construction.jpg"
+              imageSrc="/images/general/Backyard Deck.jpg"
               href="#other-projects"
               imageAlt="A new deck under construction, representing the other projects category."
             />
@@ -196,36 +196,36 @@ export default function PortfolioPage() {
               title="Reach-in Closet Makeover"
               location="Rochester, MI"
               imageSrc="/images/closets/Closet White Simple w Laminater Floors.jpg"
-              description="Efficient reach-in closet with custom shelving and laminate flooring."
-              imageAlt="A clean and simple reach-in closet with white shelving and rods, against a backdrop of laminate flooring."
+              description="Luxury walk-in closet with custom cabinetry, integrated drawer stack, LED wardrobe lighting, and clean vertical organization."
+              imageAlt="Luxury custom closet with full-height drawers, vertical shelving, LED hanging bar lighting, and upscale built-in storage features."
             />
             <ProjectCard
-              title="Mudroom Storage"
+              title="Modern Walk-In Closet"
               location="Canton, MI"
               imageSrc="/images/closets/Closet Dark Wood, Light walls.jpg"
-              description="Functional mudroom with custom lockers and bench seating."
-              imageAlt="A functional mudroom storage solution with dark wood lockers, hooks for coats, and a built-in bench."
+              description="Custom walk-in closet system featuring integrated LED lighting, multiple hanging areas, built-in drawers, and floating wood shelving."
+              imageAlt="Modern walk-in closet system with LED lighting, wood and matte finishes, custom drawers, hanging space, and built-in shelf organization"
             />
             <ProjectCard
-              title="Elegant Closet Design"
+              title="Closet Storage System"
               location="Chesterfield, MI"
               imageSrc="/images/closets/Closet White w Brown Laminate Floors.jpg"
-              description="White cabinetry with brown laminate flooring and custom shelving."
-              imageAlt="An elegant closet with white custom cabinetry and shelving, contrasted with warm brown laminate floors."
+              description="Walk-in closet with custom-built shelving towers, painted white millwork, and continuous hanging sections ideal for full wardrobe storage."
+              imageAlt="Luxury custom closet with wraparound hanging bars, built-in shelves, hardwood floors, and open layout designed for premium walk-in closet storage."
             />
             <ProjectCard
-              title="Modern Carpeted Closet"
+              title="Simple Carpeted Closet"
               location="Plymouth, MI"
               imageSrc="/images/closets/Closet White w Carpet Floors near bathroom.jpg"
-              description="Contemporary closet with white cabinetry and plush carpeting."
-              imageAlt="A modern walk-in closet with white cabinets, ample hanging space, and soft grey carpeting."
+              description="Custom closet solution with wall-mounted shelving, open compartments, and practical hanging space for streamlined clothing storage."
+              imageAlt="Affordable custom closet with white shelving units, metal hanging rods, and neutral finishes for organized clothing and accessories."
             />
             <ProjectCard
-              title="Luxury Closet Design"
+              title="Luxury Closet System"
               location="Birmingham, MI"
               imageSrc="/images/closets/Closet Dark Lighting.jpg"
-              description="Premium closet with sophisticated lighting and custom cabinetry."
-              imageAlt="A luxury closet with dramatic, dark cabinetry and integrated lighting to showcase clothing and accessories."
+              description="Custom walk-in closet with open shelf design, integrated drawer unit, exposed metal framework, and clean minimalist layout."
+              imageAlt="Custom closet shelving system with open wood shelves, black support bars, built-in drawers, and modern walk-in closet layout."
             />
           </div>
           <div className="mt-8 text-center">
@@ -242,25 +242,25 @@ export default function PortfolioPage() {
           <h2 className="text-3xl font-bold mb-8">Basement Renovations</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Entertainment Basement"
+              title="Basement Entertainment Space"
               location="West Bloomfield, MI"
               imageSrc="/images/basements/Basement darker vaulted ceilings.png"
-              description="Luxury basement with home theater and custom wet bar."
-              imageAlt="A finished basement designed for entertainment with a large screen, comfortable seating, and dark vaulted ceilings."
+              description="High-end basement remodel with a full-service bar, media and gaming zones, custom cabinetry, and recessed LED tray lighting."
+              imageAlt="Finished basement with bar, pool table, lounge seating, custom cabinetry, and recessed lighting in an open concept layout."
             />
             <ProjectCard
-              title="Basement Den w/ Office"
+              title="Basement Office & Lounge"
               location="Livonia, MI"
               imageSrc="/images/basements/Basement Egress Window Carpet.jpg"
-              description="Multi-functional basement with home office and den space."
-              imageAlt="A bright basement living space with an egress window, carpeted floor, and set up as a den and office area."
+              description="Finished basement remodel featuring a built-in home office, cozy lounge area, recessed lighting, and daylight egress windows."
+              imageAlt="Finished basement with integrated home office, black leather couch, storage console, and natural light from egress windows."
             />
             <ProjectCard
-              title="Basement Apartment"
+              title="Finished Basement Lounge"
               location="Ann Arbor, MI"
               imageSrc="/images/basements/Basement White LVP.png"
-              description="Complete basement apartment with kitchenette and living space."
-              imageAlt="A finished basement apartment with light-colored luxury vinyl plank flooring, a small kitchenette, and living area."
+              description="Stylish basement renovation featuring light wall colors, recessed LED lighting, cozy seating, and modern staircase access."
+              imageAlt="Open basement design with modern flooring, light walls, recessed lights, and flexible lounge seating arrangement."
             />
           </div>
           <div className="mt-8 text-center">
@@ -287,15 +287,15 @@ export default function PortfolioPage() {
               title="Office Space Remodel"
               location="Troy, MI"
               imageSrc="/images/commercial/Troy office.jpg"
-              description="Contemporary office with open workspace and conference room."
-              imageAlt="A modern, open-plan office space with workstations, glass-walled conference rooms, and collaborative areas."
+              description="Custom commercial interior build-out featuring high ceilings, efficient lighting, collaborative desk layout, and upgraded tech infrastructure."
+              imageAlt="Modern commercial office build-out with rows of collaborative desks, suspended lights, textured accent wall, and ceiling-mounted monitors."
             />
             <ProjectCard
               title="Restaurant Buildout"
               location="Detroit, MI"
               imageSrc="/images/commercial/Restaurant Buildout.png"
-              description="Complete restaurant buildout with commercial kitchen and bar."
-              imageAlt="The interior of a restaurant under construction, showing the bar area and dining space being built out."
+              description="Complete restaurant renovation featuring a commercial kitchen, custom bar, polished concrete floors, and industrial lighting throughout an open-concept layout."
+              imageAlt="Full restaurant buildout with commercial kitchen, open bar counter, exposed ductwork ceiling, and modern industrial interior finishes."
             />
           </div>
           <div className="mt-8 text-center">
@@ -314,23 +314,23 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Covered Deck Construction"
               location="Shelby Township, MI"
-              imageSrc="/images/BH Deck Mid Construction.jpg"
-              description="Custom covered deck with built-in seating and fire pit area."
-              imageAlt="A large wooden deck under construction, showing the framework and initial decking."
+              imageSrc="/images/general/Backyard Deck.jpg"
+              description="Spacious covered patio with steel pergola extension and a built-in grill area, designed for high-end backyard entertaining and relaxation."
+              imageAlt="Covered backyard patio with modern pergola, built-in grill, and large natural stone pavers designed for outdoor gatherings."
             />
             <ProjectCard
-              title="Home Theater"
+              title="Luxury Home Theater"
               location="Birmingham, MI"
               imageSrc="/images/general/Home Theater WB.jpg"
-              description="Luxury home theater with custom seating and premium equipment."
-              imageAlt="A dedicated home theater room with plush tiered seating, a large projection screen, and acoustic wall panels."
+              description="Custom home theater installation with acoustic wall panels, recessed lighting, premium recliners, and a wall-mounted projector screen."
+              imageAlt="Basement media room remodel with theater seating, sound-dampening walls, custom lighting, and large projection screen."
             />
             <ProjectCard
-              title="Dock Resurfacing"
-              location="Harrison Township, MI"
-              imageSrc="/images/general/Dock-After.jpg"
-              description="Professional dock resurfacing with pre-stained wood and custom railings."
-              imageAlt="A newly resurfaced wooden boat dock with fresh stain and secure railings, extending over the water."
+              title="Modern Backyard Deck"
+              location="Garden City, MI"
+              imageSrc="/images/general/Remodeled deck.jpg"
+              description="Spacious wood deck designed for outdoor entertaining, featuring wide wraparound steps, low-maintenance lumber, and seamless yard access."
+              imageAlt="Backyard deck built with pressure-treated wood, horizontal platform steps, and functional layout for outdoor space expansion."
             />
           </div>
           <div className="mt-8 text-center">
