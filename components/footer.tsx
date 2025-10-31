@@ -74,6 +74,11 @@ export default function Footer() {
                   Request a Quote
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy" className="text-neutral-300 hover:text-primary-400 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
