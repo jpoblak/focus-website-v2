@@ -1,6 +1,7 @@
 import CTASection from "@/components/cta-section"
 
 export default function PrivacyPage() {
+  // Privacy policy page for Focus Construction
   return (
     <>
       {/* Hero Section */}
