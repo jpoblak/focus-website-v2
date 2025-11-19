@@ -102,11 +102,11 @@ export default function PortfolioPage() {
               imageAlt="Custom kitchen remodel with white cabinets, natural wood finishes, contrasting island, and premium built-in appliances."
             />
             <ProjectCard
-              title="Traditional Contrast Kitchen"
-              location="Bloomfield Hills, MI"
-              imageSrc="/images/kitchens/Kitchen White Fancy Cabients w Dark Counter and BAcksplash .jpg"
-              description="Traditional kitchen remodel with cream-colored raised panel cabinets, dark granite countertops, custom tile backsplash, and hardwood flooring."
-              imageAlt="Kitchen remodel with raised panel cabinets, granite countertops, decorative tile backsplash, and stainless steel appliances."
+              title="Modern Gray Kitchen"
+              location="Utica, MI"
+              imageSrc="/images/kitchens/Willis Kitchen Face On Edited V2.jpg"
+              description="Kitchen remodel featuring gray shaker cabinets, stainless appliances, dark subway tile, and wood look tile with new countertops for a clean modern finish."
+              imageAlt="Gray cabinet kitchen remodel with updated counters and tile backsplash"
             />
             <ProjectCard
               title="Classic Monochrome Kitchen"
@@ -153,9 +153,9 @@ export default function PortfolioPage() {
             <ProjectCard
               title="Modern White Bathroom"
               location="Farmington Hills, MI"
-              imageSrc="/images/bathrooms/Bathroom Light Tub and Vanity.jpg"
-              description="Bathroom remodel featuring white shaker cabinets, gray quartz countertop, frameless glass shower, and a freestanding soaking tub with wood-look tile flooring."
-              imageAlt="Bathroom remodel with white vanity, quartz countertop, walk-in glass shower, freestanding tub, and light wood-look tile floor."
+              imageSrc="/images/bathrooms/Monroe Bathroom.jpg"
+              description="Bathroom remodel featuring marble look tile, frameless glass shower, hex mosaic floor, and a freestanding tub for a bright modern design."
+              imageAlt="Monroe, MI bathroom remodel with marble look tile and custom glass shower."
             />
             <ProjectCard
               title="Luxury Double Vanity Bathroom"
