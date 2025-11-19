@@ -389,9 +389,11 @@ function ProjectCard({
   description: string
   imageAlt: string
 }) {
-  // Check if this is one of the specific closet images that needs object-contain
-  const isSpecialClosetImage =
-    imageSrc === "/images/closets/Closet Neutral.jpg" || imageSrc === "/images/closets/Closet White Simple w Laminater Floors.jpg"
+  // Check if this is one of the specific images that needs object-contain to show full image
+  const isSpecialImage =
+    imageSrc === "/images/closets/Closet Neutral.jpg" || 
+    imageSrc === "/images/closets/Closet White Simple w Laminater Floors.jpg" ||
+    imageSrc === "/images/bathrooms/Monroe Bathroom.jpg"
 
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:-translate-y-2">
@@ -400,7 +402,7 @@ function ProjectCard({
           src={imageSrc || "/placeholder.svg?height=400&width=600"}
           alt={imageAlt}
           fill
-          className={isSpecialClosetImage ? "object-contain" : "object-cover"}
+          className={isSpecialImage ? "object-contain bg-neutral-100" : "object-cover"}
         />
       </div>
       <div className="p-6">
