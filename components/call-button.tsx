@@ -23,7 +23,7 @@ export default function CallButton() {
             </button>
           </div>
           <p className="text-sm text-neutral-600 mb-2">Choose how you'd like to contact us</p>
-          <p className="text-xs text-neutral-500 mb-3">We're available Monday-Saturday, 9AM-4PM</p>
+          <p className="text-xs text-neutral-500 mb-3">We're available Monday-Friday, 9AM-4PM</p>
           <div className="space-y-2">
             <a
               href={`tel:${phoneNumber.replace(/[^0-9]/g, "")}`}
